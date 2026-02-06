@@ -21,7 +21,7 @@ export function Contact() {
                     >
                         <Mascot
                             seed="contact-bot-v4"
-                            className="w-64 h-64 md:w-80 md:h-80 mb-20"
+                            className="w-64 h-64 md:w-80 md:h-80 mb-10 md:mb-20"
                             dialogue="Sending transmission... let's connect!"
                         />
                     </motion.div>

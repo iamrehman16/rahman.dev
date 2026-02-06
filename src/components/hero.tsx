@@ -17,7 +17,7 @@ export function Hero() {
             </div>
 
             <div className="container px-4 mx-auto relative z-10">
-                <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+                <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
                     {/* Text Content - Left */}
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}

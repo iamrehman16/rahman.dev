@@ -37,8 +37,8 @@ export function Projects() {
     return (
         <section id="projects" className="py-20 relative bg-black/50">
             <div className="container mx-auto px-4">
-                {/* Header Section - Mascot Left */}
-                <div className="flex flex-col-reverse lg:flex-row items-center justify-between mb-16 gap-8">
+                {/* Header Section - Mascot Left on Desktop, Top on Mobile? Or Mascot with text? */}
+                <div className="flex flex-col lg:flex-row items-center justify-between mb-16 gap-8">
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
                         whileInView={{ opacity: 1, x: 0 }}

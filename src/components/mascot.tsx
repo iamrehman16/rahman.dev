@@ -31,14 +31,14 @@ export function Mascot({ seed, className = "", dialogue }: MascotProps) {
                     initial={{ opacity: 0, scale: 0.8, y: 10 }}
                     whileInView={{ opacity: 1, scale: 1, y: 0 }}
                     transition={{ delay: 0.5, type: "spring" }}
-                    className="absolute -top-16 -right-10 z-20 max-w-[200px]"
+                    className="absolute -top-20 left-1/2 -translate-x-1/2 md:translate-x-0 md:-top-16 md:-right-10 z-20 w-48 md:w-[200px]"
                 >
                     <div className="relative bg-white text-black p-3 rounded-2xl border-4 border-black shadow-[4px_4px_0px_0px_rgba(168,85,247,1)]">
                         <p className="text-xs font-bold leading-tight font-comic uppercase tracking-wider">
                             {dialogue}
                         </p>
                         {/* Bubble Tail */}
-                        <div className="absolute -bottom-3 left-4 w-4 h-4 bg-white border-b-4 border-r-4 border-black rotate-45 transform" />
+                        <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 md:left-4 md:translate-x-0 w-4 h-4 bg-white border-b-4 border-r-4 border-black rotate-45 transform" />
                     </div>
                 </motion.div>
             )}
