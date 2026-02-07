@@ -16,8 +16,8 @@ export function Hero() {
                 <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10" />
             </div>
 
-            <div className="container px-4 mx-auto relative z-10">
-                <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
+            <div className="container px-4 mx-auto relative z-10 w-full flex flex-col justify-center">
+                <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 w-full">
                     {/* Text Content - Left */}
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}

@@ -22,7 +22,7 @@ export function Skills() {
             <div className="absolute bottom-0 left-0 w-64 h-64 bg-primary/10 rounded-full blur-[80px]" />
 
             <div className="container mx-auto px-4 relative z-10">
-                <div className="flex flex-col lg:flex-row items-center justify-between mb-16 gap-8">
+                <div className="flex flex-col lg:flex-row items-center justify-between mb-16 gap-8 w-full">
                     {/* Text Content - Left */}
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
